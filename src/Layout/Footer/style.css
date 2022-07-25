@@ -1,0 +1,31 @@
+.containerFooter {
+    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    height: 30px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-left: 750px;
+  
+    
+}
+
+.containerFooter > div {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: blue;
+    border-right: 1px solid blue;
+    
+}
+
+.containerFooter >div:last-child {
+    border-right: none;
+}
+
+.containerFooter > div:first-child,
+.containerFooter > div:last-child{
+    font-size: 20px;
+}

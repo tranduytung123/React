@@ -1,0 +1,33 @@
+.card
+{
+   background-color: rgb(246, 246, 246);
+    width: 230px;
+    height: 220px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    border: 3px solid rgb(93, 93, 227);
+   
+}
+
+
+
+p:nth-child(3)
+{
+   color: green;
+}
+
+.status-btn
+{
+   background-color: rgb(65, 65, 173);
+   color: aliceblue;
+   border-radius: 10px;
+   height: 30px;
+   width: 80px;
+   border: 1px solid beige;
+   display: block;
+   margin: 0 auto;
+   
+
+}
+
